@@ -61,4 +61,64 @@ body {
     border-bottom: 1px solid #323232;
   }
    
- 
+ /* Table in divContent Responsive */
+.dTable{
+	display: table;
+	width: 100%;
+}
+.dTR {
+	display: table-row;
+}
+.dTHead {
+	background-color: #EEE;
+	display: table-header-group;
+}
+.dTD, .dTH {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.dTH_Korean, 
+.dTH_Japan,
+.dTH_Chinese {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+  font-weight: bold;
+  font-size: 110%;
+}
+
+.dTD_Korean,
+.dTD_Japan,
+.dTD_Chinese {
+	border: 1px solid #999999;
+	display: table-cell;
+	padding: 3px 10px;
+	
+}
+
+.dTD_Korean {
+  background-color: #e9e571;
+}
+
+.dTD_Japan {
+  background-color: #f1a6a6;
+}
+
+.dTD_Chinese {
+  background-color: #cc7a4e;
+  color: #fff;
+}
+
+.dTHead {
+	display: table-header-group;
+	font-weight: bold;
+  font-size: 110%;
+}
+
+.dTableBody {
+	display: table-row-group;
+}
