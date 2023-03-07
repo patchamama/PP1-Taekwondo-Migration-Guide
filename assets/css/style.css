@@ -3,5 +3,32 @@ body {
     padding: 0;
     font-family: 'Oswald', sans-serif;
   }
+
+  nav ul {
+    list-style: none;
+    background-color: #cc7a4e;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav li {
+    font-size: 1.2em;
+    line-height: 40px;
+    height: 40px;
+    display: inline-block;
+    margin-left: 2.5%;
+  }
+   
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+  }
+  
+  nav a:hover {
+    background-color: #fff;
+    color: #cc7a4e;
+  }
    
  
