@@ -106,3 +106,11 @@ Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` f
 ---
 
 Happy coding!
+
+
+### Fuentes ###
+
+- Imágenes extraídas completamente de: https://www.pexels.com/
+- Para hacer las tablas responsive, he convertido los tags de tablas html (table, tr, th, td...) en divs y me basé en la idea del sitio: https://divtable.com/converter/
+- Animation of logo using a idea of https://stackoverflow.com/questions/69436632/css-keyframe-animations
+
