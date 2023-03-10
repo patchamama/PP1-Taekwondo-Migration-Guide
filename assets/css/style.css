@@ -9,28 +9,65 @@ body {
     color: #323232;
   }
 
-/* Head sections */
-  h1, h3 {
+/* Head styles and color */
+  h1, h2, h3 {
     font-family: 'Lora', serif;
     color: #2f2f2f;
     letter-spacing: 3px;
   }
 
-/* Banner-logo section */
+
+/* Banner-logo section and text*/
 #banner {
-    float: left;
-    font-size: 150%;
-    text-transform: uppercase;
-    text-decoration: none;
-    height: 50vh;
+    height: 40vh;
     width: 100%;
-    background-size: cover;
+
     backface-visibility: hidden;
     animation: imagesTransit 10s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background: url("../images/cover.jpg") no-repeat center center;
+    background: url('../images/cover.jpg') no-repeat center center;
+    background-size: cover;
 }
 
+#banner a {
+  text-decoration: none;
+}
+
+#banner-text {
+  font-family: 'Lora', serif;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+  
+  width: 300px;
+  height: 250px;
+  padding-top: 40px;
+  padding-left: 10px;
+
+  top: 60px;
+  left: 20px;
+  
+  background-color: rgba(239, 118, 118, 0.6);
+  position: relative;
+}
+
+#banner-text h1 {
+  font-size: 200%;
+  color: #fff;
+}
+
+#banner-text h2 {
+  font-size: 150%;
+  color: #fff;
+}
+
+
+#banner-text h3 {
+  font-size: 130%;
+  color: #fff;
+}
+
+/* Animation images of logo */
 @keyframes imagesTransit {
   0% {
     background-image: url('../images/cover.jpg');
