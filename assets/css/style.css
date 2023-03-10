@@ -125,53 +125,51 @@ body {
 	width: 100%;
 }
 .dTR {
-	display: table-row;
+	display: table-row-group;
 }
 .dTHead {
 	background-color: #EEE;
 	display: table-header-group;
 }
-.dTD, .dTH {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-  font-weight: bold;
-  font-size: 110%;
-}
 
+.dTH,
 .dTH_Korean, 
 .dTH_Japan,
-.dTH_Chinese {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-  font-weight: bold;
-  font-size: 110%;
-}
-
+.dTH_Chinese,
+.dTD, 
 .dTD_Korean,
 .dTD_Japan,
-.dTD_Chinese,
-.dTDdesc {
+.dTD_Chinese {
 	border: 1px solid #999999;
 	display: table-cell;
 	padding: 3px 10px;
-	
+
 }
 
-.dTDdesc {
+.dTD_InterTable {
+  padding: 20px 10px;
+  font-weight: 600;
+  font-size: 120%;
   font-style: italic;
 }
 
-.dTD_Korean {
+.dTH,
+.dTH_Korean, 
+.dTH_Japan,
+.dTH_Chinese {
+  font-weight: 600;
+  font-size: 110%;
+}
+
+.dTD_Korean, .dTH_Korean {
   background-color: #e9e571;
 }
 
-.dTD_Japan {
+.dTD_Japan, .dTH_Japan {
   background-color: #f1a6a6;
 }
 
-.dTD_Chinese {
+.dTD_Chinese, .dTH_Chinese {
   background-color: #cc7a4e;
   color: #fff;
 }
@@ -180,6 +178,7 @@ body {
 	display: table-header-group;
 	font-weight: bold;
   font-size: 110%;
+
 }
 
 .dTableBody {
