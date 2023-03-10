@@ -2,8 +2,8 @@
 
 
 body {
-    margin: 0;
-    padding: 0;
+    margin: 10px;
+    padding: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 300px;
     color: #323232;
@@ -19,6 +19,7 @@ body {
 
 /* Banner-logo section and text*/
 #banner {
+
     height: 40vh;
     width: 100%;
 
@@ -150,11 +151,16 @@ body {
 
 .dTD_Korean,
 .dTD_Japan,
-.dTD_Chinese {
+.dTD_Chinese,
+.dTDdesc {
 	border: 1px solid #999999;
 	display: table-cell;
 	padding: 3px 10px;
 	
+}
+
+.dTDdesc {
+  font-style: italic;
 }
 
 .dTD_Korean {
