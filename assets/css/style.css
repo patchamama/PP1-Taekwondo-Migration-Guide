@@ -96,7 +96,7 @@ body {
 
 
 /* Menu section */
-  nav ul {
+  #mainmenu ul {
     font-size: 100%;
     letter-spacing: 3px;
     list-style: none;
@@ -106,20 +106,20 @@ body {
     margin: 0;
   }
   
-  nav li {
+  #mainmenu li {
     line-height: 40px;
     height: 40px;
     display: inline-block;
     margin-left: 2.5%;
   }
    
-  nav a {
+  #mainmenu a {
     text-decoration: none;
     color: #fff;
     display: block;
   }
   
-  nav a:hover {
+  #mainmenu a:hover {
     background-color: #fff;
     color: #cc7a4e;
   }
