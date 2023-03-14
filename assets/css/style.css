@@ -152,7 +152,7 @@ footer {
 }
 
 
- /* Table in divContent Responsive */
+ /* Table in divContent  */
 .dTable{
 	display: table;
 	width: 100%;
@@ -230,3 +230,51 @@ footer {
   height: auto;
 }
 
+/*Media queries to be more responsive the page */
+@media screen and (max-width: 800px) {
+   /* Table in divContent responsive */
+    .dTable{
+      display: block;
+    }
+    .dTR {
+      display: block;
+    }
+    .dTHead {
+      display: block;
+      margin: 0;
+    }
+
+    .dTH,
+    .dTH_Korean, 
+    .dTH_Japan,
+    .dTH_Chinese,
+    .dTD, 
+    .dTD_Korean,
+    .dTD_Japan,
+    .dTD_Chinese {
+      display: block;
+    }
+
+    .dTH, 
+    .dTD {
+      margin-left: 0px;
+    }
+
+    .dTH_Korean, 
+    .dTD_Korean {
+      margin-left: 10px;
+    }
+    
+    .dTH_Japan,
+    .dTD_Japan {
+      margin-left: 20px;
+    }
+
+    .dTH_Chinese,
+    .dTD_Chinese {
+      margin-left: 30px;
+    }
+    .dTableBody {
+      display: block;
+    }
+}
