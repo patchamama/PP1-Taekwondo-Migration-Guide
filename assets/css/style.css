@@ -218,3 +218,16 @@ footer {
 .dTableBody {
 	display: table-row-group;
 }
+
+/* Gallery */
+#pictures {
+  line-height: 0;
+  column-count: 4;
+  column-gap: 0;
+}
+
+#pictures img {
+  width: 100%;
+  height: auto;
+}
+
