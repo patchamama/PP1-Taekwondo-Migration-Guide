@@ -26,11 +26,14 @@ body {
 
     height: 40vh;
     width: 100%;
+    overflow: hidden;
 
     backface-visibility: hidden;
     animation: imagesTransit 10s linear infinite 0s;
     animation-timing-function: ease-in-out;
-    background: url('../images/cover.jpg') no-repeat center center;
+    background: url('../images/cover.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
 }
 
