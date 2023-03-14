@@ -51,9 +51,8 @@ body {
   width: 300px;
   height: 300px;
 
-
-  top: 60px;
-  left: 20px;
+  top: 1vh;
+  left: 1vh;
 
   display: table-cell;
   vertical-align: middle;
