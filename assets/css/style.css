@@ -2,12 +2,16 @@
 
 
 body {
-    margin: 10px;
-    padding: 10px;
+    margin: 0;
+    padding: 0;
     font-family: 'Montserrat', sans-serif;
-    font-weight: 300px;
     color: #323232;
   }
+
+#content {
+  margin: 10px;
+  padding: 10px;
+}
 
 /* Head styles and color */
   h1, h2, h3 {
@@ -231,7 +235,7 @@ footer {
 }
 
 /*Media queries to be more responsive the page */
-@media screen and (max-width: 12g00px) {
+@media screen and (max-width: 1200px) {
   #pictures {
     column-count: 3;
   }
@@ -278,13 +282,14 @@ footer {
       display: block;
       clear: both;
       width: 100%;
-      padding: 0;
+      margin-left: 0;
     }
 
-    body {
-      margin: 0;
-      padding: 0;
-    } 
+
+    #content {
+      margin: 3px;
+      padding: 3px;
+    }
 
     h1 {
       text-align: center;
@@ -298,5 +303,11 @@ footer {
 @media screen and (max-width: 400px) {
   #pictures {
     column-count: 1;
+  }
+}
+
+@media screen and (max-width: 315px) {
+  #banner-text {
+    display: none;
   }
 }
