@@ -134,8 +134,8 @@ body {
 footer {
   list-style: none;
   text-align: center;
+  height: 150px;
 }
-
 
 #medialinks ul {
   border-top: 1px solid #323232;
