@@ -231,6 +231,12 @@ footer {
 }
 
 /*Media queries to be more responsive the page */
+@media screen and (max-width: 12g00px) {
+  #pictures {
+    column-count: 3;
+  }
+}
+
 @media screen and (max-width: 800px) {
    /* Table in divContent responsive */
     .dTable, 
@@ -270,6 +276,9 @@ footer {
 
     #mainmenu li {
       display: block;
+      clear: both;
+      width: 100%;
+      padding: 0;
     }
 
     body {
@@ -281,4 +290,13 @@ footer {
       text-align: center;
     }
 
+    #pictures {
+      column-count: 2;
+    }
+}
+
+@media screen and (max-width: 400px) {
+  #pictures {
+    column-count: 1;
+  }
 }
