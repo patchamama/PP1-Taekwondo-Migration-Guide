@@ -154,6 +154,10 @@ footer {
   display: block;
 }
 
+/* Bold style */
+.emphasised {
+  font-style: italic;
+}
 
  /* Table in divContent  */
 .dTable{
