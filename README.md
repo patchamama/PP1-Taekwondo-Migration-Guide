@@ -5,7 +5,7 @@ Welcome to my first proyect of [Code institute](https://codeinstitute.net)!
 
 As part of the first project for my training as a Fullstack Developer, I have developed this project that allows me to develop an idea in relation to the change of martial arts practice to facilitate the learning of a new style or practice, building on previous knowledge of a known practice. At the same time, it allows me to put into practice what I have learnt about coding/layout in my training as a Fullstack devoleper in the [Code institute](https://codeinstitute.net) training programme.
 
-![Gallery Example](https://patchamama.github.io/PP1/doc/screen-shot-responsive.png)
+![Gallery Example](https://github.com/patchamama/PP1-Taekwondo-Migration-Guide/doc/screen-shot-responsive.png)
 
 ## The goal
 
@@ -25,7 +25,7 @@ To achieve the objectives I have divided the project into 4 main pages/sections 
 
   - It includes access to 4 different pages: home, migration, gallery and contact. The menu is displayed on every page, so it is accessible from any section of the page and avoids the use of backtracking options.   
 
-![Landing Page and menu bar](https://patchamama.github.io/PP1/doc/menu-landing-page.png)
+![Landing Page and menu bar](https://github.com/patchamama/PP1-Taekwondo-Migration-Guide/doc/menu-landing-page.png)
 
 - __The Footer with medialinks__ 
 
@@ -49,15 +49,15 @@ To achieve the objectives I have divided the project into 4 main pages/sections 
     - Convert the tables for use with containers ( table > divs ) and so in this way, can be changeg the table format to blocks in different lines, differentiating the content with different margins and different colours,
     - In the last instance, due to the length of the content on small screen devices, a text was added to each cell to clarify the language of the practice to serve as a additional reference to the colour.
 
-![Table big](https://patchamama.github.io/PP1/doc/table-big.png)
+![Table big](https://github.com/patchamama/PP1-Taekwondo-Migration-Guide/doc/table-big.png)
 
-![Table small](https://patchamama.github.io/PP1/doc/table-small.png)
+![Table small](https://github.com/patchamama/PP1-Taekwondo-Migration-Guide/doc/table-small.png)
 
 ### Page-menu: Gallery
 
   - The gallery includes sample images taken from [Pexels](https://www.pexels.com/) which should be replaced in the future by images from the association.
 
-![Gallery Example](https://patchamama.github.io/PP1/doc/gallery-sample.png)
+![Gallery Example](https://github.com/patchamama/PP1-Taekwondo-Migration-Guide/doc/gallery-sample.png)
 
 ### Page-menu: Contact
 
@@ -72,11 +72,11 @@ To achieve the objectives I have divided the project into 4 main pages/sections 
   - Several tests have been carried out to check that the website contains as few errors as possible:
     - The display of the page has been checked on several devices (android phone and tablet, iPad and a laptop Macbook Pro with different browsers: safari, chrome, edge and firefox in their current versions and no error or change of behaviour on the page has been appreciated. Only one bug has been found in the header animation in Safari which is specified in the next section.
     - It has been checked that the page is responsive on different screen sizes (devtools in chrome vers. 111.0.5563.64) and has worked as expected.
-    - No errors have been detected in the official html validator: [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatchamama.github.io%2FPP1%2Findex.html)
-    - No error has been detected in the official css validator: [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https://patchamama.github.io/PP1/index.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+    - No errors have been detected in the official html validator: [W3C validator](https://validator.w3.org/nu/?doc=https://patchamama.github.io/PP1-Taekwondo-Migration-Guide/)
+    - No error has been detected in the official css validator: [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https://patchamama.github.io/PP1-Taekwondo-Migration-Guide/&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
     - Performance tests were done using lightouse (devtools) in chrome and the data returned is quite good.
 
-![Performance results](https://patchamama.github.io/PP1/doc/performance.png)
+![Performance results](https://github.com/patchamama/PP1-Taekwondo-Migration-Guide/doc/performance.png)
 
 
 ### Unfixed Bugs
@@ -85,7 +85,7 @@ It has been detected that in Safari version 16.3 sometimes the animation does no
 
 ## Deployment
 
-The project has been completely developed based on a template from the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template) in github and after the replication, gitpod has been used as an online IDE that allows updates to be made in github. To deploy the application, once on the project page on [GitHub](https://github.com/patchamama/PP1) go to the "settings" section > left menu "Pages" and from here you can access the link: https://patchamama.github.io/PP1/ 
+The project has been completely developed based on a template from the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template) in github and after the replication, gitpod has been used as an online IDE that allows updates to be made in github. To deploy the application, once on the project page on [GitHub](https://github.com/patchamama/PP1-Taekwondo-Migration-Guide) go to the "settings" section > left menu "Pages" and from here you can access the link: https://patchamama.github.io/PP1-Taekwondo-Migration-Guide/ 
 
 ## Credits 
 
