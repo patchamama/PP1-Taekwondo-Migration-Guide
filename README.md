@@ -71,6 +71,10 @@ __Contact__
     - No errors have been detected in the official html validator: [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatchamama.github.io%2FPP1%2Findex.html)
     - No error has been detected in the official css validator: [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https://patchamama.github.io/PP1/index.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
 
+### Unfixed Bugs
+
+It has been detected that in Safari version 16.3 sometimes the animation does not work on a MacBook Pro Ventura and due to the lack of availability of another Safari on a different computer it has not been possible to check if the problem is specific to my computer (for some plugin or other reason). However, in Safari on a 9 generation iPad the animation of the page header works perfectly.
+
 
 
 
