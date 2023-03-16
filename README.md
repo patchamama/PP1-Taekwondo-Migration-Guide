@@ -5,6 +5,8 @@ Welcome to my first proyect of [Code institute](https://codeinstitute.net)!
 
 As part of the first project for my training as a Fullstack Developer, I have developed this project that allows me to develop an idea in relation to the change of martial arts practice to facilitate the learning of a new style or practice, building on previous knowledge of a known practice. At the same time, it allows me to put into practice what I have learnt about coding/layout in my training as a Fullstack devoleper in the [Code institute](https://codeinstitute.net) training programme.
 
+![Gallery Example](https://patchamama.github.io/PP1/doc/screen-shot-responsive.png)
+
 ## The goal
 
 The idea of this guide is to facilitate the learning of a martial art starting from an already known martial art and for this point, we start by looking for an equivalent to every position, strike or block between a known martial arts and the target of learning. In general there are always subtle differences (even in these techniques within the styles of the same martial art) and I do not want to find an exact approximation but an idea that allows us to use a known martial art as a reference and from there make modifications and achieve the final technique in the new martial art that we want to learn and thus facilitate rapid learning and adaptation to the new practice.
