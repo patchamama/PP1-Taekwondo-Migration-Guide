@@ -75,6 +75,10 @@ __Contact__
 
 It has been detected that in Safari version 16.3 sometimes the animation does not work on a MacBook Pro Ventura and due to the lack of availability of another Safari on a different computer it has not been possible to check if the problem is specific to my computer (for some plugin or other reason). However, in Safari on a 9 generation iPad the animation of the page header works perfectly.
 
+## Deployment
+
+
+
 
 
 
