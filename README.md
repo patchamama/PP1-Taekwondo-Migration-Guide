@@ -42,8 +42,8 @@ To achieve the objectives I have divided the project into 4 main sessions that a
   - This is the most important page of the project. A comparative table summarises the equivalents between Korean, Japanese and Chinese martial arts (respectively taekwondo, karate and kungfu) in different techniques of basic stances, striking and blocking techniques. Each practice is specified in a different colour to make it easier to differentiate the content on small screens as the full table cannot be displayed.
   - This has been the biggest challenge of the project, because in addition to the value of the content, it was desired to present the content from the beginning in a comparative table. After achieving 4 tables, the possibility of displaying them correctly on all devices (responsive) was a problem, so the solution was separated into several ideas:
     - To convert the 4 tables into one table in order to achieve uniformity in the columns without depending on the size of the contents,
-    - Convert the tables for use with containers ( table > divs ) and so in this way, you can change the table format to inline blocks differentiating the content with different margins and different colours,
-    - In the last instance, due to the length of the content on small screen devices, a text was added to each cell to clarify the language of the practice to serve as a reference next to the colour.
+    - Convert the tables for use with containers ( table > divs ) and so in this way, can be changeg the table format to blocks in different lines, differentiating the content with different margins and different colours,
+    - In the last instance, due to the length of the content on small screen devices, a text was added to each cell to clarify the language of the practice to serve as a additional reference to the colour.
 
 ![Table big](https://patchamama.github.io/PP1/doc/table-big.png)
 
@@ -85,11 +85,11 @@ The project has been completely developed based on a template from the [Code Ins
 
 ## Credits 
 
-- All content was extracted directly after consultation with chatGPT and by checking the information obtained directly with my experience as a practitioner of karate, hapkido and taekwondo. In the case of Kungfu it has not been possible for me to check the validity of the information.
+- All content was extracted directly after consultation with [chatGPT](https://openai.com/blog/chatgpt) and by checking the information obtained directly with my experience as a practitioner of karate, hapkido and taekwondo. In the case of Kungfu it has not been possible for me to check the validity of the information.
 - The images in the gallery section and the header were taken from the site: https://www.pexels.com/
 - To make the tables responsive, I converted the original html table tags (table, tr, th, td...) into divs and based it on the idea of the site: https://divtable.com/converter/
 - Animation of logo using a idea of https://stackoverflow.com/questions/69436632/css-keyframe-animations
-- The idea of inserting a text in a container (div) via css without using html was taken from the site (for the table in the migration section on small screens): https://stackoverflow.com/questions/2741312/using-css-to-insert-text
+- The idea of inserting a text in a container (div) via css without using javascript was taken from the site (for the table in the migration section on small screens): https://stackoverflow.com/questions/2741312/using-css-to-insert-text
 - Menu Icons and sections are from: https://fontawesome.com/
 
 All photos are open source licensed.
