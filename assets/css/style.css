@@ -1,158 +1,130 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@300&display=swap');
-
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: 'Montserrat', sans-serif;
-    color: #323232;
-  }
-
-#content {
-  margin: 10px;
-  padding: 10px;
+ body {
+     color: #323232;
+     font-family: 'Montserrat', sans-serif;
+     margin: 0;
+     padding: 0;
+}
+ #content {
+     margin: 10px;
+     padding: 10px;
 }
 
 /* Head styles and color */
-  h1, h2, h3 {
-    font-family: 'Lora', serif;
-    color: #2f2f2f;
-    letter-spacing: 3px;
-  }
-
-  h3 {
-    border-bottom: 1px solid #323232;
-  }
-
+ h1, h2, h3 {
+     color: #2f2f2f;
+     font-family: 'Lora', serif;
+     letter-spacing: 3px;
+}
+ h3 {
+     border-bottom: 1px solid #323232;
+}
 
 /* Banner-logo section and text */
-#banner {
-
-    height: 40vh;
-    width: 100%;
-    overflow: hidden;
-
-    backface-visibility: hidden;
-    animation: imagesTransit 10s linear infinite 0s;
-    animation-timing-function: ease-in-out;
-    background: url('../images/cover.jpg');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+ #banner {
+     height: 40vh;
+     width: 100%;
+     overflow: hidden;
+     backface-visibility: hidden;
+     animation: imagesTransit 10s linear infinite 0s;
+     animation-timing-function: ease-in-out;
+     background: url('../images/cover.jpg');
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
 }
-
-#banner a {
-  text-decoration: none;
+ #banner a {
+     text-decoration: none;
 }
-
-#banner-text {
-  font-family: 'Lora', serif;
-  text-transform: uppercase;
-  letter-spacing: 3px;
-  text-align: center;
-  
-  width: 35vh;
-  height: 35vh;
-
-  top: 1vh;
-  left: 1vh;
-
-  display: table-cell;
-  vertical-align: middle;
-  
-  background-color: rgb(204, 122, 78, 0.8);
-  position: relative;
-  border-radius: 50%;
+ #banner-text {
+     font-family: 'Lora', serif;
+     text-transform: uppercase;
+     letter-spacing: 3px;
+     text-align: center;
+     width: 35vh;
+     height: 35vh;
+     top: 1vh;
+     left: 1vh;
+     display: table-cell;
+     vertical-align: middle;
+     background-color: rgb(204, 122, 78, 0.8);
+     position: relative;
+     border-radius: 50%;
 }
-
-#banner-text h1 {
-  font-size: 150%;
-  color: #fff;
+ #banner-text h1 {
+     font-size: 150%;
+     color: #fff;
 }
-
-#banner-text h2 {
-  font-size: 130%;
-  color: #fff;
+ #banner-text h2 {
+     font-size: 130%;
+     color: #fff;
 }
-
-
-#banner-text h3 {
-  font-size: 110%;
-  color: #fff;
-  border-bottom: 0;
+ #banner-text h3 {
+     font-size: 110%;
+     color: #fff;
+     border-bottom: 0;
 }
-
 /* Animation images of logo */
-@keyframes imagesTransit {
-  0% {
-    background-image: url('../images/cover.jpg');
-  }
-  50% {
-    background-image: url('../images/cover1.jpg');
-  }
-  100% {
-    background-image: url('../images/cover2.jpg');
-  }
- 
+ @keyframes imagesTransit {
+     0% {
+         background-image: url('../images/cover.jpg');
+    }
+     50% {
+         background-image: url('../images/cover1.jpg');
+    }
+     100% {
+         background-image: url('../images/cover2.jpg');
+    }
 }
-
 
 /* Menu section on header */
-  #mainmenu ul {
-    font-size: 100%;
-    letter-spacing: 3px;
-    list-style: none;
-    background-color: #cc7a4e;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-  }
-  
-  #mainmenu li {
-    line-height: 40px;
-    height: 40px;
-    display: inline-block;
-    margin-left: 2.5%;
-  }
-   
-  #mainmenu a {
-    text-decoration: none;
-    color: #fff;
-    display: block;
-    padding: 0 10px;
-  }
-  
-  #mainmenu a:hover {
-    background-color: #fff;
-    color: #cc7a4e;
-  }
+#mainmenu ul {
+  background-color: #cc7a4e;
+  font-size: 100%;
+  letter-spacing: 3px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+#mainmenu li {
+  display: inline-block;
+  height: 40px;
+  line-height: 40px;
+  margin-left: 2.5%;
+}
+#mainmenu a {
+  color: #fff;
+  display: block;
+  padding: 0 10px;
+  text-decoration: none;
+}
+#mainmenu a:hover {
+  background-color: #fff;
+  color: #cc7a4e;
+}
+#mainmenu .active {
+  border-bottom: 1px solid #323232;
+}
 
-  #mainmenu .active {
-    border-bottom: 1px solid #323232;
-  }
-   
 /* Medialinks section on footer */
 footer {
   list-style: none;
   text-align: center;
 }
-
 #medialinks ul {
   border-top: 1px solid #323232;
 }
-
 #medialinks li {
   display: inline-block;
-  padding: 10px 5%;
-  margin: 20px;
   font-size: 120%;
-
+  margin: 20px;
+  padding: 10px 5%;
 }
- 
 #medialinks a {
-  text-decoration: none;
   color: #290f0f;
   display: block;
+  text-decoration: none;
 }
 
 /* Bold style */
@@ -160,193 +132,154 @@ footer {
   font-style: italic;
 }
 
- /* Table in divContent  */
+/* Table in divContent */
 .dTable{
-	display: table;
-	width: 100%;
+  display: table;
+  width: 100%;
 }
 .dTR {
-	display: table-row-group;
+  display: table-row-group;
 }
 .dTHead {
-	background-color: #EEE;
-	display: table-header-group;
+  background-color: #EEE;
+  display: table-header-group;
 }
-
-.dTH,
-.dTH_Korean, 
-.dTH_Japan,
-.dTH_Chinese,
-.dTD, 
-.dTD_Korean,
-.dTD_Japan,
-.dTD_Chinese {
-	border: 1px solid #999999;
-	display: table-cell;
-	padding: 3px 10px;
-
+.dTH, .dTH_Korean, .dTH_Japan, .dTH_Chinese, .dTD, .dTD_Korean, .dTD_Japan, .dTD_Chinese {
+  border: 1px solid #999999;
+  display: table-cell;
+  padding: 3px 10px;
 }
-
 .dTD_InterTable {
-  padding: 20px 10px;
-  font-weight: 600;
   font-size: 120%;
   font-style: italic;
-}
-
-.dTH,
-.dTH_Korean, 
-.dTH_Japan,
-.dTH_Chinese {
   font-weight: 600;
-  font-size: 110%;
+  padding: 20px 10px;
 }
-
+.dTH, .dTH_Korean, .dTH_Japan, .dTH_Chinese {
+  font-size: 110%;
+  font-weight: 600;
+}
 .dTD_Korean, .dTH_Korean {
   background-color: #e9e571;
 }
-
 .dTD_Japan, .dTH_Japan {
   background-color: #f1a6a6;
 }
-
 .dTD_Chinese, .dTH_Chinese {
   background-color: #cc7a4e;
   color: #fff;
 }
-
 .dTHead {
-	display: table-header-group;
-	font-weight: bold;
+  display: table-header-group;
   font-size: 110%;
-
+  font-weight: bold;
 }
-
 .dTableBody {
-	display: table-row-group;
+  display: table-row-group;
 }
 
 /* Gallery */
 #pictures {
-  line-height: 0;
   column-count: 4;
   column-gap: 0;
+  line-height: 0;
 }
-
 #pictures img {
-  width: 100%;
   height: auto;
+  width: 100%;
 }
 
 /* Contact info section */
 #contact-info {
-    left: 5%;
-    padding: 30px;
-    color: #fff;
-    background-color: rgb(204, 122, 78, 0.8);
-    max-width: 300px;  
+  background-color: rgb(204, 122, 78, 0.8);
+  color: #fff;
+  left: 5%;
+  max-width: 300px;
+  padding: 30px;
 }
 
 /* Media queries to be more responsive the pages */
+
 /* Reduce to 3 columns of images */
 @media screen and (max-width: 1200px) {
   #pictures {
-    column-count: 3;
-  }
+      column-count: 3;
+ }
 }
 
 /* Mainly the tables -migration section- and images -gallery- must to change the form to be showed */
+
 /* Center the head-titles-section names and contact-info */
 @media screen and (max-width: 800px) {
-   /* Table in divContent responsive */
-    .dTable, 
-    .dTR ,
-    .dTHead {
+ 
+/* Table in divContent responsive */
+  .dTable, .dTR , .dTHead {
       display: block;
       margin: 0;
-    }
-
-    .dTH, 
-    .dTD {
-      margin-left: 0px;
+ }
+  .dTH, .dTD {
       display: block;
-    }
-
-    .dTH_Korean, 
-    .dTD_Korean {
-      margin-left: 10px;
-      display: block;
-    }
-    
-    .dTH_Japan,
-    .dTD_Japan {
-      margin-left: 20px;
-      display: block;
-    }
-
-    .dTH_Chinese,
-    .dTD_Chinese {
-      margin-left: 30px;
-      display: block;
-    }
-
-    .dTableBody {
-      display: block;
-    }
-
-    .dTD_Korean:before {
-      content: "Korean: ";
-    }
-    
-    .dTD_Japan:before {
-      content: "Japanese: ";
-    }
-    
-    .dTD_Chinese:before {
-      content: "Chinese: ";
-    }
-    
-    #mainmenu li {
-      display: block;
-      clear: both;
-      width: 100%;
       margin-left: 0;
-    }
-
-
-    #content {
+ }
+  .dTH_Korean, .dTD_Korean {
+      display: block;
+      margin-left: 10px;
+ }
+  .dTH_Japan, .dTD_Japan {
+      display: block;
+      margin-left: 20px;
+ }
+  .dTH_Chinese, .dTD_Chinese {
+      display: block;
+      margin-left: 30px;
+ }
+  .dTableBody {
+      display: block;
+ }
+  .dTD_Korean:before {
+      content: "Korean: ";
+ }
+  .dTD_Japan:before {
+      content: "Japanese: ";
+ }
+  .dTD_Chinese:before {
+      content: "Chinese: ";
+ }
+  #mainmenu li {
+      clear: both;
+      display: block;
+      margin-left: 0;
+      width: 100%;
+ }
+  #content {
       margin: 3px;
       padding: 3px;
-    }
-
-    h2 {
+ }
+  h2 {
       text-align: center;
-    }
-
-    #contact-info {
+ }
+  #contact-info {
       max-width: 100%;
-    }
-
-    #pictures {
+ }
+  #pictures {
       column-count: 2;
-    }
+ }
 }
 
 /* Show only 1 column with images and reduce padding-margin of medialinks */
 @media screen and (max-width: 500px) {
   #pictures {
-    column-count: 1;
-  }
+      column-count: 1;
+ }
   #medialinks li {
-    padding: 10px 3%;
-    margin: 0;  
-  }
-
+      margin: 0;
+      padding: 10px 3%;
+ }
 }
 
 /* The banner don't be showed full > hidde it! */
 @media screen and (max-width: 360px) {
   #banner-text {
-    display: none;
-  }
+      display: none;
+ }
 }
