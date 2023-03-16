@@ -19,7 +19,7 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 
 - __Menu Bar__
 
-  - It includes access to 3 different pages: home, migration and gallery. An extra option is also provided to the contact section of the home page in addition to its importance.  
+  - It includes access to 4 different pages: home, migration, gallery and contact. The menu is displayed on every page, so it is accessible from any section of the page and avoids the use of backtracking options.   
 
 ![Landing Page and menu bar](https://patchamama.github.io/PP1/assets/images/menu-landing-page.png)
 
@@ -30,10 +30,6 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 - __Introduction Section__
 
   - The introduction briefly gives some general concepts such as the meaning of martial art and gives more information about the diverse origin of martial arts and possible causes. 
-
-- __Contact Section__
-
-  - In the contact section there is a reference to the association I am part of with a small reference to the types of training they do, taken from the association's website and a contact email with postal address and a link to google maps for more detailed information.
 
 - __The Footer__ 
 
@@ -46,6 +42,10 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 - __Gallery__
 
   - The gallery includes sample images taken from [Pexels](https://www.pexels.com/) which should be replaced in the future by images from the association.
+
+__Contact__
+
+  - In the contact section there is a reference to the association I am part of with a small reference to the types of training they do. The information was taken from the association's website. There is a contact email, postal address and a link to google maps for more detailed information.
 
 
 ### Sources ###
