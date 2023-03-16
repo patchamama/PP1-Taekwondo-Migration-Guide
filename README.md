@@ -77,19 +77,15 @@ It has been detected that in Safari version 16.3 sometimes the animation does no
 
 ## Deployment
 
+The project has been completely developed based on a template from the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template) in github and after the replication, gitpod has been used as an online IDE that allows updates to be made in github. To deploy the application, once on the project page on [GitHub](https://github.com/patchamama/PP1) go to the "settings" section > left menu "Pages" and from here you can access the link: https://patchamama.github.io/PP1/ 
 
+## Credits 
 
-
-
-
-
-### Sources ###
-
-- All images are taken from the site: https://www.pexels.com/
-- To make the tables responsive, I converted the html table tags (table, tr, th, td...) into divs and based it on the idea of the site: https://divtable.com/converter/
+- All content was extracted directly after consultation with chatGPT and by checking the information obtained directly with my experience as a practitioner of karate, hapkido and taekwondo. In the case of Kungfu it has not been possible for me to check the validity of the information.
+- The images in the gallery section and the header were taken from the site: https://www.pexels.com/
+- To make the tables responsive, I converted the original html table tags (table, tr, th, td...) into divs and based it on the idea of the site: https://divtable.com/converter/
 - Animation of logo using a idea of https://stackoverflow.com/questions/69436632/css-keyframe-animations
-- Menu Icons from https://fontawesome.com/
+- The idea of inserting a text in a container (div) via css without using html was taken from the site (for the table in the migration section on small screens): https://stackoverflow.com/questions/2741312/using-css-to-insert-text
+- Menu Icons and sections are from: https://fontawesome.com/
 
-**To do?**
-
-- Insert images of techniques (position, blockade...)
+All photos are creative common or open source licensed.
