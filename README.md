@@ -21,7 +21,7 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 
   - It includes access to 4 different pages: home, migration, gallery and contact. The menu is displayed on every page, so it is accessible from any section of the page and avoids the use of backtracking options.   
 
-![Landing Page and menu bar](https://patchamama.github.io/PP1/assets/images/menu-landing-page.png)
+![Landing Page and menu bar](https://patchamama.github.io/PP1/doc/menu-landing-page.png)
 
 - __Why this page? Section__
 
@@ -38,6 +38,14 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 - __Migration__
 
   - This is the most important page of the project. A comparative table summarises the equivalents between Korean, Japanese and Chinese martial arts (respectively taekwondo, karate and kungfu) in different techniques of basic stances, striking and blocking techniques. Each practice is specified in a different colour to make it easier to differentiate the content on small screens as the full table cannot be displayed.
+  - This has been the biggest challenge of the project, because in addition to the value of the content, it was desired to present the content from the beginning in a comparative table. After achieving 4 tables, the possibility of displaying them correctly on all devices (responsive) was a problem, so the solution was separated into several ideas:
+    - To convert the 4 tables into one table in order to achieve uniformity in the columns without depending on the size of the contents,
+    - Convert the tables for use with containers ( table > divs ) and so in this way, you can change the table format to inline blocks differentiating the content with different margins and different colours,
+    - In the last instance, due to the length of the content on small screen devices, a text was added to each cell to clarify the language of the practice to serve as a reference next to the colour.
+
+![Table big](https://patchamama.github.io/PP1/doc/table-big.png)
+
+![Table small](https://patchamama.github.io/PP1/doc/table-small.pngdoc)
 
 - __Gallery__
 
