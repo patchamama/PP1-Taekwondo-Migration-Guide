@@ -63,6 +63,18 @@ __Contact__
 
   - Video session showing each technique and the differences between each one.
 
+## Testing 
+
+  - Several tests have been carried out to check that the website contains as few errors as possible:
+    - The display of the page has been checked on several devices (android phone and tablet, laptop with different browsers: safari, chrome, edge and firefox in their current versions and no error or change of behaviour on the page has been appreciated.
+    - It has been checked that the page is responsive on different screen sizes (devtools) and has worked as expected.
+    - No errors have been detected in the official html validator: [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatchamama.github.io%2FPP1%2Findex.html)
+    - No error has been detected in the official css validator: [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https://patchamama.github.io/PP1/index.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+
+
+
+
+
 ### Sources ###
 
 - All images are taken from the site: https://www.pexels.com/
