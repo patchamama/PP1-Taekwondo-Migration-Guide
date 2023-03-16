@@ -53,13 +53,13 @@ To achieve the objectives I have divided the project into 4 main pages/sections 
 
 ![Table small](https://patchamama.github.io/PP1/doc/table-small.png)
 
-### Page-mnenu: Gallery
+### Page-menu: Gallery
 
   - The gallery includes sample images taken from [Pexels](https://www.pexels.com/) which should be replaced in the future by images from the association.
 
 ![Gallery Example](https://patchamama.github.io/PP1/doc/gallery-sample.png)
 
-### Page-mnenu: Contact
+### Page-menu: Contact
 
   - In the contact section there is a reference to the association I am part of with a small reference to the types of training they do. The information was taken from the association's website. There is a contact email, postal address and a link to google maps for more detailed information.
 
@@ -70,8 +70,8 @@ To achieve the objectives I have divided the project into 4 main pages/sections 
 ## Testing 
 
   - Several tests have been carried out to check that the website contains as few errors as possible:
-    - The display of the page has been checked on several devices (android phone and tablet, laptop Macbook Pro with different browsers: safari, chrome, edge and firefox in their current versions and no error or change of behaviour on the page has been appreciated. Only one bug has been found in the header animation in Safari which is specified in the next section.
-    - It has been checked that the page is responsive on different screen sizes (devtools) and has worked as expected.
+    - The display of the page has been checked on several devices (android phone and tablet, iPad and a laptop Macbook Pro with different browsers: safari, chrome, edge and firefox in their current versions and no error or change of behaviour on the page has been appreciated. Only one bug has been found in the header animation in Safari which is specified in the next section.
+    - It has been checked that the page is responsive on different screen sizes (devtools in chrome vers. 111.0.5563.64) and has worked as expected.
     - No errors have been detected in the official html validator: [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatchamama.github.io%2FPP1%2Findex.html)
     - No error has been detected in the official css validator: [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https://patchamama.github.io/PP1/index.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
     - Performance tests were done using lightouse (devtools) in chrome and the data returned is quite good.
@@ -81,7 +81,7 @@ To achieve the objectives I have divided the project into 4 main pages/sections 
 
 ### Unfixed Bugs
 
-It has been detected that in Safari version 16.3 sometimes the animation does not work on a MacBook Pro Ventura and due to the lack of availability of another Safari on a different computer it has not been possible to check if the problem is specific to my computer (for some plugin or other reason). However, in Safari on a 9 generation iPad the animation of the page header works perfectly.
+It has been detected that in Safari version 16.3 sometimes the animation does not work on a MacBook Pro (MacOsx Ventura) and due to the lack of availability of another Safari on a different computer it has not been possible to check if the problem is specific to my computer (for some plugin or other reason). However, in Safari on a 9 generation iPad the animation of the page header works perfectly.
 
 ## Deployment
 
@@ -90,10 +90,12 @@ The project has been completely developed based on a template from the [Code Ins
 ## Credits 
 
 - All content was extracted directly after consultation with [chatGPT](https://openai.com/blog/chatgpt) and by checking the information obtained directly with my experience as a practitioner of karate, hapkido and taekwondo. In the case of Kungfu it has not been possible for me to check the validity of the information.
+- The information on the contact page has been taken from the website of the [Ho-Sin-Sul-Berlin e.V. Hapkido Verein](http://www.hosinsul-berlin-ev.de/training/)
 - The images in the gallery section and the header were taken from the site: https://www.pexels.com/
 - To make the tables responsive, I converted the original html table tags (table, tr, th, td...) into divs and based it on the idea of the site: https://divtable.com/converter/
 - Animation of logo using a idea of https://stackoverflow.com/questions/69436632/css-keyframe-animations
 - The idea of inserting a text in a container (div) via css without using javascript was taken from the site (for the table in the migration section on small screens): https://stackoverflow.com/questions/2741312/using-css-to-insert-text
 - Menu Icons and sections are from: https://fontawesome.com/
+- As part of the learning and test-error process, much of the knowledge practised here is a result of the exercises and ideas learned in the [Code institute](https://codeinstitute.net) training period and adapted to my needs.
 
 All photos are open source licensed.
