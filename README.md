@@ -86,7 +86,6 @@ It has been detected that in Safari version 16.3 sometimes the animation does no
 ## Deployment
 
 The project has been completely developed based on a template from the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template) in github and after the replication, gitpod has been used as an online IDE that allows updates to be made in github. To deploy the application, got here to the "Settings" section over right > left menu "Pages" and from here you can access directly to the link: https://patchamama.github.io/PP1-Taekwondo-Migration-Guide/ 
-To the html and css formater was using: https://codebeautify.org/
 
 ## Credits 
 
@@ -98,5 +97,6 @@ To the html and css formater was using: https://codebeautify.org/
 - The idea of inserting a text in a container (div) via css without using javascript was taken from the site (for the table in the migration section on small screens): https://stackoverflow.com/questions/2741312/using-css-to-insert-text
 - Menu Icons and sections are from: https://fontawesome.com/
 - As part of the learning and test-error process, much of the knowledge practised here is a result of the exercises and ideas learned in the [Code institute](https://codeinstitute.net) training period and adapted to my needs.
+- To the html and css formater was using: https://codebeautify.org/
 
 All photos are open source licensed.
