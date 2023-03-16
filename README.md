@@ -70,6 +70,10 @@ To achieve the objectives I have divided the project into 4 main sessions that a
     - It has been checked that the page is responsive on different screen sizes (devtools) and has worked as expected.
     - No errors have been detected in the official html validator: [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fpatchamama.github.io%2FPP1%2Findex.html)
     - No error has been detected in the official css validator: [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https://patchamama.github.io/PP1/index.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+    - Performance tests were done using lightouse (devtools) in chrome and the data returned is quite good.
+
+![Performance results](https://patchamama.github.io/PP1/doc/performance.png)
+
 
 ### Unfixed Bugs
 
