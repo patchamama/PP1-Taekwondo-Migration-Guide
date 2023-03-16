@@ -234,7 +234,6 @@ footer {
 }
 
 #contact-info {
-    margin: 5px 5% 0 0;
     left: 5%;
     padding: 30px;
     color: #fff;
@@ -304,7 +303,7 @@ footer {
     }
 
     #contact-info {
-      text-align: center;
+      max-width: 100%;
     }
 
     #pictures {
