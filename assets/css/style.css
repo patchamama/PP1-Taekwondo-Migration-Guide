@@ -315,11 +315,16 @@ footer {
     }
 }
 
-/* Show only 1 column with images */
-@media screen and (max-width: 400px) {
+/* Show only 1 column with images and reduce padding-margin of medialinks */
+@media screen and (max-width: 500px) {
   #pictures {
     column-count: 1;
   }
+  #medialinks li {
+    padding: 10px 3%;
+    margin: 0;  
+  }
+
 }
 
 /* The banner don't be showed full > hidde it! */
