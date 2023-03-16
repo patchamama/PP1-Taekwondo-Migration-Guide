@@ -47,7 +47,7 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 
 ![Table big](https://patchamama.github.io/PP1/doc/table-big.png)
 
-![Table small](https://patchamama.github.io/PP1/doc/table-small.pngdoc)
+![Table small](https://patchamama.github.io/PP1/doc/table-small.png)
 
 - __Gallery__
 
@@ -59,6 +59,9 @@ __Contact__
 
   - In the contact section there is a reference to the association I am part of with a small reference to the types of training they do. The information was taken from the association's website. There is a contact email, postal address and a link to google maps for more detailed information.
 
+### Features Left to Implement
+
+  - Video session showing each technique and the differences between each one.
 
 ### Sources ###
 
