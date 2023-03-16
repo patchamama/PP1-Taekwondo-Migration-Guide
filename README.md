@@ -85,7 +85,7 @@ It has been detected that in Safari version 16.3 sometimes the animation does no
 
 ## Deployment
 
-The project has been completely developed based on a template from the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template) in github and after the replication, gitpod has been used as an online IDE that allows updates to be made in github. To deploy the application, once on the project page on [GitHub](https://github.com/patchamama/PP1-Taekwondo-Migration-Guide) go to the "settings" section > left menu "Pages" and from here you can access the link: https://patchamama.github.io/PP1-Taekwondo-Migration-Guide/ 
+The project has been completely developed based on a template from the [Code Institute](https://github.com/Code-Institute-Org/gitpod-full-template) in github and after the replication, gitpod has been used as an online IDE that allows updates to be made in github. To deploy the application, got here to the "Settings" section over right > left menu "Pages" and from here you can access directly to the link: https://patchamama.github.io/PP1-Taekwondo-Migration-Guide/ 
 
 ## Credits 
 
