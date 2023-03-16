@@ -134,7 +134,6 @@ body {
 footer {
   list-style: none;
   text-align: center;
-  height: 150px;
 }
 
 #medialinks ul {
@@ -143,9 +142,10 @@ footer {
 
 #medialinks li {
   display: inline-block;
-  padding: 3%;
-  margin: 1%;
+  padding: 10px 5%;
+  margin: 20px;
   font-size: 120%;
+
 }
  
 #medialinks a {
@@ -303,6 +303,10 @@ footer {
       text-align: center;
     }
 
+    #contact-info {
+      text-align: center;
+    }
+
     #pictures {
       column-count: 2;
     }
@@ -314,7 +318,7 @@ footer {
   }
 }
 
-@media screen and (max-width: 315px) {
+@media screen and (max-width: 360px) {
   #banner-text {
     display: none;
   }
