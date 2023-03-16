@@ -51,6 +51,8 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 
   - The gallery includes sample images taken from [Pexels](https://www.pexels.com/) which should be replaced in the future by images from the association.
 
+![Gallery Example](https://patchamama.github.io/PP1/doc/gallery-sample.png)
+
 __Contact__
 
   - In the contact section there is a reference to the association I am part of with a small reference to the types of training they do. The information was taken from the association's website. There is a contact email, postal address and a link to google maps for more detailed information.
