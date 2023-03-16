@@ -13,7 +13,9 @@ The idea of this guide is to facilitate the learning of a martial art starting f
 
 ## Features
 
-To achieve the objectives I have divided the project into 4 main sessions that are included in the menu that is displayed on each page and that always allows you to access them from wherever you are on the site.
+To achieve the objectives I have divided the project into 4 main pages/sections that are included in the menu that is displayed on each page and that always allows you to access them from wherever you are on the site.
+
+### Sections common to all pages
 
 - __The landing page image__
 
@@ -25,19 +27,21 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 
 ![Landing Page and menu bar](https://patchamama.github.io/PP1/doc/menu-landing-page.png)
 
-- __Why this page? Section__
+- __The Footer with medialinks__ 
+
+  - It is possible to provide the link in the future to the different social networks of the association to which I belong once I provide this information by the coordinators (the information has not been provided). 
+
+### Page Home
+
+- __Why this page?__
 
   - In this section I specify the reason for the content of this page with a brief history and the initial difficulty that determined learning a new martial arts practice without a guide that would allow a quick transition and clarification of the new concepts.
 
-- __Introduction Section__
+- __Introduction__
 
   - The introduction briefly gives some general concepts such as the meaning of martial art and gives more information about the diverse origin of martial arts and possible causes. 
 
-- __The Footer__ 
-
-  - It is possible to provide the link in the future to the different social networks of the association to which I belong once I provide this information by the coordinators (the information has not been provided).
-
-- __Migration__
+### Page-menu: Migration
 
   - This is the most important page of the project. A comparative table summarises the equivalents between Korean, Japanese and Chinese martial arts (respectively taekwondo, karate and kungfu) in different techniques of basic stances, striking and blocking techniques. Each practice is specified in a different colour to make it easier to differentiate the content on small screens as the full table cannot be displayed.
   - This has been the biggest challenge of the project, because in addition to the value of the content, it was desired to present the content from the beginning in a comparative table. After achieving 4 tables, the possibility of displaying them correctly on all devices (responsive) was a problem, so the solution was separated into several ideas:
@@ -49,13 +53,13 @@ To achieve the objectives I have divided the project into 4 main sessions that a
 
 ![Table small](https://patchamama.github.io/PP1/doc/table-small.png)
 
-- __Gallery__
+### Page-mnenu: Gallery
 
   - The gallery includes sample images taken from [Pexels](https://www.pexels.com/) which should be replaced in the future by images from the association.
 
 ![Gallery Example](https://patchamama.github.io/PP1/doc/gallery-sample.png)
 
-- __Contact__
+### Page-mnenu: Contact
 
   - In the contact section there is a reference to the association I am part of with a small reference to the types of training they do. The information was taken from the association's website. There is a contact email, postal address and a link to google maps for more detailed information.
 
