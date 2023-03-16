@@ -119,6 +119,7 @@ body {
     text-decoration: none;
     color: #fff;
     display: block;
+    padding: 0 10px;
   }
   
   #mainmenu a:hover {
