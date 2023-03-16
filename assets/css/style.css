@@ -25,7 +25,7 @@ body {
   }
 
 
-/* Banner-logo section and text*/
+/* Banner-logo section and text */
 #banner {
 
     height: 40vh;
@@ -97,7 +97,7 @@ body {
 }
 
 
-/* Menu section */
+/* Menu section on header */
   #mainmenu ul {
     font-size: 100%;
     letter-spacing: 3px;
@@ -130,7 +130,7 @@ body {
     border-bottom: 1px solid #323232;
   }
    
-/* Medialinks section */
+/* Medialinks section on footer */
 footer {
   list-style: none;
   text-align: center;
@@ -233,6 +233,7 @@ footer {
   height: auto;
 }
 
+/* Contact info section */
 #contact-info {
     left: 5%;
     padding: 30px;
@@ -241,13 +242,16 @@ footer {
     max-width: 300px;  
 }
 
-/*Media queries to be more responsive the page */
+/* Media queries to be more responsive the pages */
+/* Reduce to 3 columns of images */
 @media screen and (max-width: 1200px) {
   #pictures {
     column-count: 3;
   }
 }
 
+/* Mainly the tables -migration section- and images -gallery- must to change the form to be showed */
+/* Center the head-titles-section names and contact-info */
 @media screen and (max-width: 800px) {
    /* Table in divContent responsive */
     .dTable, 
@@ -311,12 +315,14 @@ footer {
     }
 }
 
+/* Show only 1 column with images */
 @media screen and (max-width: 400px) {
   #pictures {
     column-count: 1;
   }
 }
 
+/* The banner don't be showed full > hidde it! */
 @media screen and (max-width: 360px) {
   #banner-text {
     display: none;
