@@ -294,6 +294,18 @@ footer {
       display: block;
     }
 
+    .dTD_Korean:before {
+      content: "Korean: ";
+    }
+    
+    .dTD_Japan:before {
+      content: "Japanese: ";
+    }
+    
+    .dTD_Chinese:before {
+      content: "Chinese: ";
+    }
+    
     #mainmenu li {
       display: block;
       clear: both;
